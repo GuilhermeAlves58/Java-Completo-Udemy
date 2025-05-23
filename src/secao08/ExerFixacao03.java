@@ -1,6 +1,6 @@
 package secao08;
 
-import secao08.entities.Student;
+import secao08.entities08.Student;
 
 import java.util.Scanner;
 

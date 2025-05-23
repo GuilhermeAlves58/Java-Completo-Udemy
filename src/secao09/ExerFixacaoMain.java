@@ -1,6 +1,6 @@
 package secao09;
 
-import secao09.entities.ExerFixacao;
+import secao09.entities09.ExerFixacao;
 
 import java.util.Scanner;
 

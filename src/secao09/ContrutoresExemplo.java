@@ -1,6 +1,6 @@
 
 package secao09;
-import secao09.entities.Product;
+import secao09.entities09.Product;
 
 import java. util.Locale;
 import java.util.Scanner;

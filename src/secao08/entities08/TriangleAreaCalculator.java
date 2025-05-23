@@ -1,4 +1,4 @@
-package secao08.entities;
+package secao08.entities08;
 
 public class TriangleAreaCalculator {
     public double a;

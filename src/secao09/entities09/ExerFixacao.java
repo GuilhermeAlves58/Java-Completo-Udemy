@@ -1,4 +1,4 @@
-package secao09.entities;
+package secao09.entities09;
 
 public class ExerFixacao {
 

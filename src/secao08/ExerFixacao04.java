@@ -1,6 +1,6 @@
 package secao08;
 
-import secao08.entities.CurrencyConverter;
+import secao08.entities08.CurrencyConverter;
 
 import java.util.Scanner;
 

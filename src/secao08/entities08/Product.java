@@ -1,6 +1,4 @@
-package secao08.entities;
-
-import java.util.Scanner;
+package secao08.entities08;
 
 public class Product {
     public String  name;

@@ -1,6 +1,6 @@
 package secao08;
 
-import secao08.entities.Rectangle;
+import secao08.entities08.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 package secao08;
 
-import secao08.entities.TriangleAreaCalculator;
+import secao08.entities08.TriangleAreaCalculator;
 
 import java.util.Locale;
 import java.util.Scanner;

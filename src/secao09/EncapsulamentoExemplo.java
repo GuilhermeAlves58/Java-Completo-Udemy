@@ -1,6 +1,6 @@
 package secao09;
 
-import secao09.entities.PessoaEncapsulamento;
+import secao09.entities09.PessoaEncapsulamento;
 
 public class EncapsulamentoExemplo {
     public static void main(String[] args) {
