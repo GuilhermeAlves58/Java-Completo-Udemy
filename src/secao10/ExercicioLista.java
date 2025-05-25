@@ -82,3 +82,46 @@ public class ExercicioLista {
         return emp != null;
     }
 }
+
+// Meu código sem List:
+// package secao10;
+//
+//import secao10.entities10.Employee;
+//
+//import java.util.Scanner;
+//
+//public class ExercicioLista {
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("How many employees will be registered? ");
+//        int numberOfEmployees = scanner.nextInt();
+//        Employee[] employees = new Employee[numberOfEmployees];
+//
+//        for (int i = 0; i < numberOfEmployees; i++) {
+//            System.out.print("Id: ");
+//            int id = scanner.nextInt();
+//            scanner.nextLine();
+//            System.out.print("Name: ");
+//            String name = scanner.nextLine();
+//            System.out.print("Salary: ");
+//            double salary = scanner.nextDouble();
+//            employees[i] = new Employee(id,name,salary);
+//        }
+//        System.out.print("Enter the employee that will have the salary increased: ");
+//        int id = scanner.nextInt();
+//        for (int i = 0; i < employees.length; i++) {
+//            if (employees[i].getId() == id){
+//                System.out.print("Percentage: ");
+//                int percentage = scanner.nextInt();
+//                employees[i].increaseSalary(percentage);
+//            }
+//            else {
+//                System.out.println("This Id doesn't exist");
+//            }
+//        }
+//        for (int i = 0; i < employees.length; i++) {
+//            System.out.println(employees[i].getId() + ", " + employees[i].getName() + ", "+ employees[i].getSalary() );
+//        }
+//    }
+//}
+// Consegui implementar o que foi pedido na seção 10 aula 100 ,mas não do jeito certo
