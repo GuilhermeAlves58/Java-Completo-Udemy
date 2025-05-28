@@ -1,4 +1,4 @@
-package secao12;
+package secao12.application;
 
 import secao12.entities12.Enums.OrderStatus;
 import secao12.entities12.Order;
