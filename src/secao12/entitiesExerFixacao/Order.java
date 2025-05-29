@@ -12,7 +12,7 @@ public class Order {
     private Date moment;
     private OrderStatus status;
 
-    private Client client;
+    private final Client  client;
     private List<OrderItem> orderItems = new ArrayList<>();
 
     public Order(Date moment,OrderStatus status,Client client) {
