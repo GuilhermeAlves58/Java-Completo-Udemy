@@ -1,4 +1,4 @@
-package secao13.entities;
+package secao13.heranca.entities;
 
 public class BusinessAccount extends Account {
 
@@ -21,5 +21,10 @@ public class BusinessAccount extends Account {
         if (amount <= loanLimit){
                 balance += amount - 10;
         }
+    }
+    @Override
+    public void whithdraw(Double balance){
+        super.whithdraw(balance);
+        this.balance -= 2;
     }
 }
