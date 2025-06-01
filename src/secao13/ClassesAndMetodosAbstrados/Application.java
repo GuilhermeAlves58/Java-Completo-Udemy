@@ -2,6 +2,7 @@ package secao13.ClassesAndMetodosAbstrados;
 
 import secao13.ClassesAndMetodosAbstrados.entities.Circle;
 import secao13.ClassesAndMetodosAbstrados.entities.Enums;
+import secao13.ClassesAndMetodosAbstrados.entities.Rectangle;
 import secao13.ClassesAndMetodosAbstrados.entities.Shape;
 
 import java.awt.*;
@@ -36,7 +37,7 @@ public class Application {
                 double width = sc.nextDouble();
                 System.out.print("Height: ");
                 double height = sc.nextDouble();
-                Shape shape = new Rectangle(color, width, height);
+                Shape shape = new Rectangle(color,width,height);
                 list.add(shape);
             }
             else {
