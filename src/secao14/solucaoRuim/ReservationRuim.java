@@ -41,7 +41,7 @@ public class ReservationRuim {
     public String updateDates(Date checkIn, Date checkOut){
         Date now = new Date();
         if (checkIn.before(now) || checkOut.before(now)){
-            return "Error in reservation: Reservation dates must be future dates";
+            return "Error in reservation: ReservationBoa dates must be future dates";
         }
          if (!checkOut.after(checkIn)) {
             return "Error in reservation: Check out date must be after check-in date: ";

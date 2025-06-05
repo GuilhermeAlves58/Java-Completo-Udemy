@@ -22,7 +22,7 @@ public class Main {
         }
         else{
             Reservation reservation = new Reservation(number,checkIn,checkOut);
-            System.out.println("Reservation: "+ reservation);
+            System.out.println("ReservationBoa: "+ reservation);
 
             System.out.print("Room number: ");
             number = sc.nextInt();
@@ -33,13 +33,13 @@ public class Main {
 
             Date now = new Date();
             if (checkIn.before(now) || checkOut.before(now)){
-                System.out.println("Error in reservation: Reservation dates must be future dates");
+                System.out.println("Error in reservation: ReservationBoa dates must be future dates");
             } else if (!checkOut.after(checkIn)) {
                 System.out.println("Error in reservation: Check out date must be after check-in date: ");
             }
             else{
                 reservation.updateDates(checkIn, checkOut);
-                System.out.println("Reservation: "+ reservation);
+                System.out.println("ReservationBoa: "+ reservation);
             }
         }
 
