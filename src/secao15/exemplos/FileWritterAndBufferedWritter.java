@@ -1,4 +1,4 @@
-package secao15;
+package secao15.exemplos;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

@@ -1,4 +1,4 @@
-package secao15;
+package secao15.exemplos;
 
 import java.io.File;
 import java.util.Scanner;
