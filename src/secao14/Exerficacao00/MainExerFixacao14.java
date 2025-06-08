@@ -6,7 +6,7 @@ import secao14.Exerficacao00.exception.InvalidOperationException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MainExerFixacao {
+public class MainExerFixacao14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
