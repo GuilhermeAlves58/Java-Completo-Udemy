@@ -3,7 +3,7 @@ package secao15.exemplos;
 import java.io.*;
 import java.nio.file.*;
 
-public class SummaryExemple15 {
+public class SummaryExample15 {
     public static void main(String[] args) {
         // Caminho da pasta e do arquivo
         Path pasta = Paths.get("dados");
