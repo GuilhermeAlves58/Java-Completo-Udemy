@@ -10,3 +10,15 @@ O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/jav
 
 ## Projetos:
 
+### Jogo de Xadrez:
+
+### Web Services Spring Boot + MongoDB:
+
+### Web services Spring + JPA/Hibernate:
+
+### Interface gráfica com JavaFX:
+
+### Mapeamento objeto-relacional com JPA:
+
+
+
