@@ -2,6 +2,8 @@ package secao16.model;
 
 import secao16.model.entities.CarRental;
 import secao16.model.entities.Vehicle;
+import secao16.model.services.BrazilTaxService;
+import secao16.model.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -24,7 +26,17 @@ public class ExemplosSemInterfaces {
 
         CarRental carRental = new CarRental(new Vehicle(carModel) ,start,finish);
 
+        System.out.println("Entre com o preço por Hora: ");
+        double pricePerHour = sc.nextDouble();
+        System.out.println("Entre com o preço por Dia: ");
+        double pricePerDay = sc.nextDouble();
 
-        System.out.println("Car Model");
+        RentalService rentalService = new RentalService(pricePerDay,pricePerHour,new BrazilTaxService());
+
+        rentalService.processInvoice(carRental);
+
+        System.out.println("Fatura: ");
+        System.out.println("Pagamento Básico: " + carRental.getInvoice().getBasicPayment());
+
     }
 }
