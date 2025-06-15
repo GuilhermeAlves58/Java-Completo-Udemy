@@ -2,7 +2,7 @@
 
 Este é o meu segundo curso de Java, e utilizarei este espaço para registrar tudo o que estou aprendendo ao longo do conteúdo.
 
-O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/java-curso-completo/).
+O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/java-curso-completo/) feito pelo Professor Nelio Alves.
 
 ## Status:
 ####  Curso iniciado em 09/05/2025
@@ -20,5 +20,4 @@ O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/jav
 
 ### Mapeamento objeto-relacional com JPA:
 
-
-
+## Geral sobre o Curso:
