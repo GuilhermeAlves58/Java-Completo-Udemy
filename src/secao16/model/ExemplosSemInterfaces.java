@@ -37,6 +37,8 @@ public class ExemplosSemInterfaces {
 
         System.out.println("Fatura: ");
         System.out.println("Pagamento Básico: " + carRental.getInvoice().getBasicPayment());
-
+        System.out.println("Imposto " + carRental.getInvoice().getTax());
+        System.out.println("pagamento total " + carRental.getInvoice().getTotalPayment());
+        sc.close();
     }
 }
