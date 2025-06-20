@@ -1,4 +1,4 @@
-package secao16.exemplos16;
+package secao16.interfaceComparable;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
