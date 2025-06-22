@@ -14,7 +14,7 @@ public class MainDefaultMethods {
         System.out.println("Months: ");
         int moths = sc.nextInt();
 
-        InterestService usaInterestService = new USAInterestService(1)
+        InterestService usaInterestService = new USAInterestService(1);
         double payment = usaInterestService.payment(amount,moths);
 
         System.out.println("Payment after " + moths + " months: ");
