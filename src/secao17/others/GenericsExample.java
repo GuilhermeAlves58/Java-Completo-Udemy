@@ -1,4 +1,4 @@
-package secao17;
+package secao17.others;
 
 public class GenericsExample {
     public static void main(String[] args) {

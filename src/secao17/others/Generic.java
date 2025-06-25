@@ -1,4 +1,4 @@
-package secao17;
+package secao17.others;
 
 public class Generic<T> {
     private T conteudo;

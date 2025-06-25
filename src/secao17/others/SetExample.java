@@ -1,4 +1,4 @@
-package secao17;
+package secao17.others;
 
 import java.util.HashSet;
 import java.util.Set;
