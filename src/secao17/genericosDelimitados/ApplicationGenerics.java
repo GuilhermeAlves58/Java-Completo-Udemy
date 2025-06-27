@@ -1,5 +1,8 @@
 package secao17.genericosDelimitados;
 
+import secao17.genericosDelimitados.entities.ProductGeneric;
+import secao17.genericosDelimitados.service.CalculationService;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -9,14 +12,15 @@ import java.util.List;
 
 public class ApplicationGenerics {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
+        List<ProductGeneric> list = new ArrayList<>();
 
         String path = "C:\\Games\\in.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))){
             String line = br.readLine();
             while (line != null){
-                list.add(Integer.parseInt(line));
+                String[] fields = line.split(",");
+                list.add(new ProductGeneric(fields[0],Double.parseDouble(fields[1])));
                 line = br.readLine();
             }
         }
@@ -26,7 +30,7 @@ public class ApplicationGenerics {
             System.out.println("Error: " + e.getMessage());;
         }
 
-        Integer x = CalculationService.max(list);
+        ProductGeneric x = CalculationService.max(list);
         System.out.println("Max: " + x);
     }
 }
