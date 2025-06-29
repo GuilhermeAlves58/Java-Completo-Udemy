@@ -2,8 +2,8 @@ package secao17.others;
 import java.util.*;
 
 /* Superclasse e duas subclasses só para ilustrar */
-class Animal { public String toString() { return "Animal"; } }
-class Dog extends Animal { public String toString() { return "Dog"; } }
+class Animal { public String toString() { return "AnimalContra"; } }
+class Dog extends AnimalContra { public String toString() { return "Dog"; } }
 
 public class WildcardExample {
 
@@ -33,7 +33,7 @@ public class WildcardExample {
     public static void main(String[] args) {
 
         // ----- 1. ?  -----
-        List<Animal> animais = Arrays.asList(new Animal(), new Dog());
+        List<AnimalContra> animais = Arrays.asList(new AnimalContra(), new Dog());
         imprimeTudo(animais);               // aceita qualquer List<?>
 
         // ----- 2. ? extends Number  -----
