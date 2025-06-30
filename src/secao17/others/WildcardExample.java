@@ -2,7 +2,7 @@ package secao17.others;
 import java.util.*;
 
 /* Superclasse e duas subclasses só para ilustrar */
-class Animal { public String toString() { return "AnimalContra"; } }
+class AnimalWildcard { public String toString() { return "AnimalContra"; } }
 class Dog extends AnimalContra { public String toString() { return "Dog"; } }
 
 public class WildcardExample {
