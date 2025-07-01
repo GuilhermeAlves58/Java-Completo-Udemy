@@ -3,11 +3,11 @@ package secao17.set.solvedExer;
 
 import java.util.Objects;
 
-public class UserSet implements Comparable<UserSet> {
+public class LogEntry implements Comparable<LogEntry> {
     private String name;
     private String date;
 
-    public UserSet(String name, String date) {
+    public LogEntry(String name, String date) {
         this.name = name;
         this.date = date;
     }
@@ -32,7 +32,7 @@ public class UserSet implements Comparable<UserSet> {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
 
-        UserSet userSet = (UserSet) o;
+        LogEntry userSet = (LogEntry) o;
         return Objects.equals(name, userSet.name) && Objects.equals(date, userSet.date);
     }
 
@@ -44,7 +44,7 @@ public class UserSet implements Comparable<UserSet> {
     }
 
     @Override
-    public int compareTo(UserSet o) {
+    public int compareTo(LogEntry o) {
         return name.compareTo(o.name);
     }
 }
