@@ -1,13 +1,14 @@
 package secao17.set.solvedExer;
 
 
+import java.util.Date;
 import java.util.Objects;
 
 public class LogEntry implements Comparable<LogEntry> {
     private String name;
-    private String date;
+    private Date date;
 
-    public LogEntry(String name, String date) {
+    public LogEntry(String name, Date date) {
         this.name = name;
         this.date = date;
     }
@@ -20,11 +21,11 @@ public class LogEntry implements Comparable<LogEntry> {
         this.name = name;
     }
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 

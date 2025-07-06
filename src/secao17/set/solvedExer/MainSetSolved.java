@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.Instant;
+import java.util.Date;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -21,7 +23,7 @@ public class MainSetSolved {
             while (line != null){
                 String[] fields = line.split(" ");
                 String name = fields[0];
-                String date = fields[1];
+                Date date = Date.from(Instant.parse(fields[1]));
                 LogEntry userSet = new LogEntry(name,date);
                 set.add(userSet);
                 line = bufferedReader.readLine();
