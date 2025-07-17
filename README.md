@@ -10,6 +10,8 @@ O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/jav
 
 ## Projetos:
 
+### Acesso a Banco de Dados com JBDC:
+
 ### Jogo de Xadrez:
 
 ### Web Services Spring Boot + MongoDB:
@@ -19,5 +21,6 @@ O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/jav
 ### Interface gráfica com JavaFX:
 
 ### Mapeamento objeto-relacional com JPA:
+
 
 ## Geral sobre o Curso:
