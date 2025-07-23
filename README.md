@@ -10,7 +10,9 @@ O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/jav
 
 ## Projetos:
 
-### Acesso a Banco de Dados com JBDC:
+### Acesso a Banco de Dados com JBDC: [Projeto](https://github.com/GuilhermeAlves58/Acesso-banco-de-DadosJDBC-Projeto-)
+Demonstração prática de acesso a banco de dados com JDBC, incluindo estrutura de projeto com DAO e transações SQL.
+
 
 ### Jogo de Xadrez:
 
