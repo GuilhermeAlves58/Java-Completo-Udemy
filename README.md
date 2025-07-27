@@ -22,7 +22,6 @@ Demonstração prática de acesso a banco de dados com JDBC, incluindo estrutura
 
 ### Interface gráfica com JavaFX:
 
-### Mapeamento objeto-relacional com JPA:
 
 
 ## Geral sobre o Curso:
