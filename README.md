@@ -18,7 +18,8 @@ Demonstração prática de acesso a banco de dados com JDBC, incluindo estrutura
 
 ### Web Services Spring Boot + MongoDB:
 
-### Web services Spring + JPA/Hibernate:
+### Web services Spring + JPA/Hibernate:[Projeto](https://github.com/GuilhermeAlves58/Web-Service-Spring-Boot-JPA-Hibernate)
+Projeto de web services REST com Spring Boot, utilizando JPA/Hibernate para mapeamento objeto-relacional. Inclui CRUD completo, tratamento de exceções e configuração com banco H2 e PostgreSQL.
 
 ### Interface gráfica com JavaFX:
 
