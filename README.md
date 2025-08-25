@@ -14,7 +14,8 @@ O curso está disponível na plataforma [Udemy](https://www.udemy.com/course/jav
 Demonstração prática de acesso a banco de dados com JDBC, incluindo estrutura de projeto com DAO e transações SQL.
 
 
-### Jogo de Xadrez:
+### Jogo de Xadrez:[Projeto](https://github.com/GuilhermeAlves58/Chess-Project)
+Projeto completo de um jogo de xadrez em console, aplicando os conceitos de POO (herança, polimorfismo, exceções, abstração). Inclui regras oficiais como **Xeque, Xeque-mate, Roque, En Passant e Promoção de Peão**.
 
 ### Web Services Spring Boot + MongoDB:
 
