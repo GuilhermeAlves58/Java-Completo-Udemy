@@ -17,12 +17,12 @@ Demonstração prática de acesso a banco de dados com JDBC, incluindo estrutura
 ### Jogo de Xadrez:[Projeto](https://github.com/GuilhermeAlves58/Chess-Project)
 Projeto completo de um jogo de xadrez em console, aplicando os conceitos de POO (herança, polimorfismo, exceções, abstração). Inclui regras oficiais como **Xeque, Xeque-mate, Roque, En Passant e Promoção de Peão**.
 
-### Web Services Spring Boot + MongoDB:
+### Web Services Spring Boot + MongoDB[Projeto](https://github.com/GuilhermeAlves58/WebServiceMongoDB):
 
 ### Web services Spring + JPA/Hibernate:[Projeto](https://github.com/GuilhermeAlves58/Web-Service-Spring-Boot-JPA-Hibernate)
 Projeto de web services REST com Spring Boot, utilizando JPA/Hibernate para mapeamento objeto-relacional. Inclui CRUD completo, tratamento de exceções e configuração com banco H2 e PostgreSQL.
 
-### Interface gráfica com JavaFX:
+### Interface gráfica com JavaFX[Projeto](https://github.com/GuilhermeAlves58/JavaFX):
 
 
 
