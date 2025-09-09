@@ -11,7 +11,7 @@ Este repositório também funciona como um **portfólio de estudos**, atualizado
 ## 📅 Status do Curso
 
 - Início: **09/05/2025**
-- Situação: **Em Progresso**
+- final: **10/09/2025**
 
 ---
 
@@ -33,7 +33,7 @@ Projeto de web services REST com **Spring Boot** e **JPA/Hibernate** para mapeam
 Inclui CRUD completo, tratamento de exceções e configuração com banco de dados H2 (teste) e PostgreSQL (produção).
 
 ### 🖼️ [Interface Gráfica com JavaFX](https://github.com/GuilhermeAlves58/JavaFX)
-Projeto de interface gráfica utilizando **JavaFX**, aplicando conceitos de orientação a eventos e construção de UIs modernas em Java. *(em desenvolvimento)*
+Projeto de interface gráfica utilizando **JavaFX**, aplicando conceitos de orientação a eventos e construção de UIs modernas em Java.
 
 ---
 
@@ -50,6 +50,9 @@ O curso aborda desde os fundamentos da linguagem Java até tópicos avançados, 
 - MongoDB e bancos orientados a documentos
 - Interface gráfica com JavaFX
 - Boas práticas, design patterns e princípios de clean code
+
+O curso tem uma qualidade excelente junto da didática incrível do professor Nélio, então é impossível terminar sem entender os conteúdos.
+Agora que concluí essa etapa, me sinto confiante para começar a desenvolver projetos por conta própria. Em poucos dias irei iniciar novos projetos, então fique de olho no meu GitHub!
 
 🔗 Curso: [Java COMPLETO - Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/java-curso-completo/)  
 👨‍🏫 Professor: **Dr. Nélio Alves**
